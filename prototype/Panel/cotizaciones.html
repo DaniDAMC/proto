@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Estilos/normalize.css">
+    <link rel="stylesheet" href="Estilos/styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="modal" id="modal">
+        <div class="modal-content">
+
+            <div class="container-activo">
+                <div class="registro-header">
+                    <h2 class="text-center">Registrar Cotizacion</h2>
+                    <div class="modal-boton" id="modal-boton">
+
+                        <div class=" close-1"></div>
+                        <div class=" close-2"></div>
+
+
+                    </div>
+
+                </div>
+
+                <div class="separador"></div>
+
+                <div class="input-activo cliente">
+
+
+                    <label for="nombre-cliente">Nombre cliente</label>
+                    <input type="text" id="nombre-cliente">
+
+
+                </div>
+
+                <div class="input-activo cliente">
+
+
+                    <label for="telefono-cliente">Telefono cliente</label>
+                    <input type="tel" id="telefono-cliente">
+
+
+                </div>
+
+
+                <div class="input-activo cliente">
+
+
+                    <label for="correo">Correo</label>
+                    <input type="text" id="correo">
+
+
+                </div>
+
+
+                <div class="input-activo cliente">
+
+
+                    <label for="direccion">Direccion</label>
+                    <input type="text" id="direccion">
+
+
+                </div>
+
+
+                <div class="input-activo cliente">
+
+
+                    <label for="materiales">Materiales</label>
+                    <textarea class="text-area" name="materiales" id="materiales"></textarea>
+
+
+                </div>
+
+                <div class="input-activo cliente">
+
+
+                    <label for="descripcion">Descripcion</label>
+                    <textarea class="text-area" name="descrip" id="descripcion"></textarea>
+
+
+                </div>
+
+
+                <div class="input-activo cliente">
+
+
+                    <label for="proyecto">Proyecto</label>
+                    <select name="proyecto" id="proyecto">
+                 <option value="0" selected disabled>-- Seleccionar --</option>
+                    <option value="1">PL#1</option>
+                    <option value="2">PL#2</option>
+                    <option value="3">PL#3</option>
+                    <option value="4">PL#4</option>
+
+                  </select>
+
+
+                </div>
+
+
+                <button class="btn success full-width mt-2">Registrar cotizacion </button>
+
+
+
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+    <!--SEGUNDO MODAL-->
+
+    <div class="modal" id="modal">
+        <div class="modal-content">
+
+            <div class="container-activo">
+                <div class="registro-header">
+                    <h2 class="text-center">Editar Cotizacion</h2>
+                    <div class="modal-boton" id="modal-boton">
+
+                        <div class=" close-1"></div>
+                        <div class=" close-2"></div>
+
+
+                    </div>
+
+                </div>
+
+                <div class="separador"></div>
+
+                <div class="input-activo cliente">
+
+
+                    <label for="nombre-cliente">Nombre cliente</label>
+                    <input type="text" id="nombre-cliente">
+
+
+                </div>
+
+                <div class="input-activo cliente">
+
+
+                    <label for="telefono-cliente">Telefono cliente</label>
+                    <input type="tel" id="telefono-cliente">
+
+
+                </div>
+
+
+                <div class="input-activo cliente">
+
+
+                    <label for="correo">Correo</label>
+                    <input type="text" id="correo">
+
+
+                </div>
+
+
+                <div class="input-activo cliente">
+
+
+                    <label for="direccion">Direccion</label>
+                    <input type="text" id="direccion">
+
+
+                </div>
+
+
+                <div class="input-activo cliente">
+
+
+                    <label for="materiales">Materiales</label>
+                    <textarea class="text-area" name="materiales" id="materiales"></textarea>
+
+
+                </div>
+
+                <div class="input-activo cliente">
+
+
+                    <label for="descripcion">Descripcion</label>
+                    <textarea class="text-area" name="descrip" id="descripcion"></textarea>
+
+
+                </div>
+
+
+                <div class="input-activo cliente">
+
+
+                    <label for="proyecto">Proyecto</label>
+                    <select name="proyecto" id="proyecto">
+                 <option value="0" selected disabled>-- Seleccionar --</option>
+                    <option value="1">PL#1</option>
+                    <option value="2">PL#2</option>
+                    <option value="3">PL#3</option>
+                    <option value="4">PL#4</option>
+
+                  </select>
+
+
+                </div>
+
+
+                <button class="btn success full-width mt-2">Guardar Cambios</button>
+
+
+
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+    <!--TERCER MODAL-->
+
+
+    <div class="modal" id="modal">
+        <div class="modal-content">
+
+            <div class="container-ficha">
+
+                <div>
+                    <div class="registro-header">
+                        <h2 class="text-center">Proyecto #01 <br>Valor $500</h2>
+                        <p class="text-center subtitulo-header">Instalacion+Transporte dentro del GAM incluidos</p>
+                        <div class="modal-boton" id="modal-boton">
+
+                            <div class=" close-1"></div>
+                            <div class=" close-2"></div>
+
+
+                        </div>
+
+                    </div>
+
+                    <div class="separador"></div>
+
+
+
+
+
+                    <ul class="lista-ficha">
+
+                        <li>Espacio requerido:8mtr x 7mtr</li>
+                        <li>Casita de 2mtr x 2mtr x 3.70mtr de altura</li>
+                        <li>Corredor de 2mtr x 1mtr</li>
+                        <li>Escalera Sólida con barandas</li>
+                        <li>Deck en la parte baja de la casita</li>
+                        <li>Extension para 3 columpios</li>
+                        <li>Techo en 2 caídas (zing teja)</li>
+                        <li>Puertas y ventanas frontales y verticales</li>
+                        <li>Tobogán recto ondulado grande de 3mtr de largo</li>
+                    </ul>
+                </div>
+
+                <div>
+
+                    <button class="btn danger full-width mt-2">PDF</button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+    <!-- CUARTO MODAL-->
+
+
+    <div class="modal" id="modal">
+        <div class="modal-content">
+
+            <div class="container-activo">
+
+
+                <div class="registro-header">
+                    <h2 class="text-center">Cotizacion Proyecto</h2>
+                    <p class="text-center">Alex Montero </p>
+                    <div class="modal-boton" id="modal-boton">
+
+                        <div class=" close-1"></div>
+                        <div class=" close-2"></div>
+
+
+                    </div>
+
+                </div>
+
+                <div class="separador"></div>
+
+                <div class="cotizacion-detalles">
+
+                    <h3 class="mb-1">Informacion del cliente</h3>
+                    <p class="mb-1"><span style="font-weight: bold;">Telefono:</span> 123456789</p>
+                    <p class="mb-1"><span style="font-weight: bold;">Correo:</span> ticoplayground@gmail.com</p>
+                    <p class="mb-1  "><span style="font-weight: bold;">Direccion:</span> 120 metros del polideportivo</p>
+
+
+                    <h3 class="mt-2">Proyecto</h3>
+                    <p class="mb-2 mt-1"><span style="font-weight: bold;">Codigo:</span> PL#1 </p>
+
+                    <h4 class=" mb-1">Materiales</h4>
+
+
+                    <ul class="ml-2">
+
+                        <li>20 mtr de madera - $20</li>
+                        <li>4 lijas - $2</li>
+                        <li>Pintura verde y roja - $40</li>
+                        <li>12kg de tornillos y tuercas - $15 </li>
+                        <li>2kg cemento - $17 </li>
+                        <li>Barniz - $14.5</li>
+                        <li>2 hamaca - $20 c/u</li>
+                        <li>1 tobogan - $42</li>
+                        <li>12 mtr de mecate - $20</li>
+                        <li>Techo en dos caidas - $41</li>
+
+                    </ul>
+
+
+
+                    <p class="mb-1 mt-2"><span style="font-weight: bold;">Total:</span> $240</p>
+
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+    <main>
+
+
+
+
+        <aside class="lateral-bar">
+
+            <div class="title-company ">
+
+                <h2>TicoPlayGround</h2>
+
+
+
+            </div>
+
+            <div class="title-panel">
+
+                <h2>Panel Administrativo</h2>
+
+
+            </div>
+
+
+            <h2 class="options">Opciones</h2>
+
+            <div class="module-container">
+
+
+                <div class="projects-module module">
+
+                    <i class="fas fa-project-diagram"></i>
+                    <a class="link-module">Home</a>
+
+
+                </div>
+
+                <div class="projects-module module">
+
+                    <i class="fas fa-project-diagram"></i>
+                    <a class="link-module">Proyectos</a>
+
+
+                </div>
+
+                <div class="clients-module module">
+
+                    <i class="fas fa-user-friends"></i>
+                    <a class="link-module">Clientes<a>
+
+
+                </div>
+
+
+
+                <div class="personal-module module">
+
+                    <i class="fas fa-users"></i>
+                    <a class="link-module">Personal<a>
+
+
+                </div>
+
+
+
+                <div class="inventory-module module">
+
+                    <i class="fas fa-boxes"></i>
+                <a class="link-module">Inventario</a>
+
+
+                </div>
+
+
+                <div class="market-rates-module module">
+
+                    <i class="fas fa-clipboard-list"></i>
+                    <a class="link-module">Cotizaciones</a>
+
+
+                </div>
+
+                <div class="expenses-module module">
+
+                    <i class="fas fa-receipt"></i>
+                    <a class="link-module">Gastos</a>
+
+
+                </div>
+
+                <div class="income-module module">
+
+                    <i class="fas fa-file-invoice-dollar"></i>
+                    <a class="link-module">Ingresos</a>
+
+
+                </div>
+
+
+                <div class="projects-module module">
+
+                    <i class="fas fa-users"></i>
+                    <a class="link-module">Usuarios</a>
+
+
+                </div>
+
+
+
+            </div>
+
+            <!--FIN DEL MODULE CONTAINER-->
+
+            <div class="help">
+
+                <h2 class="assistance">Asistencia</h2>
+
+                <div class="module">
+
+                    <i class="fas fa-cogs"></i>
+                    <a class="link-module">Ajustes</a>
+
+
+                </div>
+
+                <div class="module">
+
+                    <i class="far fa-question-circle"></i>
+                    <a class="link-module">Ayuda</a>
+
+
+                </div>
+
+                <div class="module">
+
+                    <i class="fas fa-headset"></i>
+                    <a class="link-module">Call Center</a>
+
+
+                </div>
+
+
+
+
+
+
+            </div>
+
+
+
+            <footer class="footer">
+
+                <p class="footer-text"></p>
+
+
+            </footer>
+
+
+
+
+        </aside>
+
+        <!--FIN BARRA LATERAL-->
+
+
+
+        <div class="info-container">
+
+            <header class="header">
+                <img src="img/User_Circle.png" alt="imagen-usuario">
+
+                <p class="name">Daniel Mora Cubero</p>
+
+
+
+
+            </header>
+
+            <h2 class=" title-table text-center mt-2">Cotizaciones</h2>
+
+            <div class="table-container">
+
+
+                <table>
+
+
+
+
+                    <tr>
+
+                        <th>Nombre Cliente</th>
+                        <th>Telefono Cliente</th>
+                        <th>Correo</th>
+                        <th>Direccion</th>
+                        <th>Descripcion</th>
+                        <th>Proyecto</th>
+                        <th>Ver detalles</th>
+                        <th>Acciones</th>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>Alex</td>
+                        <td>123456789</td>
+                        <td>ticoplayground@gmail.com</td>
+                        <td>120 metros del polideportivo</td>
+                        <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim minus quidem blanditiis</td>
+                        <td><img class="imagen-proyecto" src="./img/WhatsApp Image 2020-09-19 at 10.52.02 AM.jpeg" alt="proyecto"></td>
+                        <td>
+                            <div class="actions-container"> <button class="detalles"> Ver  </button></div>
+                        </td>
+                        <td>
+                            <div class="actions-container">
+
+                                <button class="edit"> <i class="fas fa-edit"></i>  </button>
+                                <button class="delete"><i class="far fa-trash-alt"></i></button>
+
+
+                            </div>
+                        </td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>Alex</td>
+                        <td>123456789</td>
+                        <td>ticoplayground@gmail.com</td>
+                        <td>120 metros del polideportivo</td>
+                        <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim minus quidem blanditiis</td>
+                        <td><img class="imagen-proyecto" src="./img/WhatsApp Image 2020-09-19 at 10.52.02 AM.jpeg" alt="proyecto"></td>
+                        <td>
+                            <div class="actions-container"> <button class="detalles"> Ver  </button></div>
+                        </td>
+                        <td>
+                            <div class="actions-container">
+
+                                <button class="edit"> <i class="fas fa-edit"></i>  </button>
+                                <button class="delete"><i class="far fa-trash-alt"></i></button>
+
+
+                            </div>
+                        </td>
+
+                    </tr>
+
+
+
+                    <tr>
+
+                        <td>Alex</td>
+                        <td>123456789</td>
+                        <td>ticoplayground@gmail.com</td>
+                        <td>120 metros del polideportivo</td>
+                        <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim minus quidem blanditiis</td>
+                        <td><img class="imagen-proyecto" src="./img/WhatsApp Image 2020-09-19 at 10.52.02 AM.jpeg" alt="proyecto"></td>
+                        <td>
+                            <div class="actions-container"> <button class="detalles"> Ver  </button></div>
+                        </td>
+                        <td>
+                            <div class="actions-container">
+
+                                <button class="edit"> <i class="fas fa-edit"></i>  </button>
+                                <button class="delete"><i class="far fa-trash-alt"></i></button>
+
+
+                            </div>
+                        </td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>Alex</td>
+                        <td>123456789</td>
+                        <td>ticoplayground@gmail.com</td>
+                        <td>120 metros del polideportivo</td>
+                        <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim minus quidem blanditiis</td>
+                        <td><img class="imagen-proyecto" src="./img/WhatsApp Image 2020-09-19 at 10.52.02 AM.jpeg" alt="proyecto"></td>
+                        <td>
+                            <div class="actions-container"> <button class="detalles"> Ver  </button></div>
+                        </td>
+                        <td>
+                            <div class="actions-container">
+
+                                <button class="edit"> <i class="fas fa-edit"></i>  </button>
+                                <button class="delete"><i class="far fa-trash-alt"></i></button>
+
+
+                            </div>
+                        </td>
+
+                    </tr>
+
+
+
+
+
+
+                </table>
+                <p class="nota mt-1">Nota: Al hacer click las imagenes muestran la ficha tecnica del proyecto</p>
+
+                <button id="agregar-activo" class="btn success mt-2">Agregar Cotizacion</button>
+
+
+
+            </div>
+
+
+
+        </div>
+
+
+
+
+    </main>
+
+
+
+
+    <script src="https://kit.fontawesome.com/a81368914c.js"></script>
+    <script src="app/cotizaciones.js" type="module"></script>
+</body>
+
+</html>

@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Estilos/normalize.css">
+    <link rel="stylesheet" href="Estilos/styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="modal" id="modal">
+        <div class="modal-content">
+
+            <div class="container-activo">
+                <div class="registro-header">
+                    <h2 class="text-center">Registro Proyecto</h2>
+                    <div class="modal-boton" id="modal-boton">
+
+                        <div class=" close-1"></div>
+                        <div class=" close-2"></div>
+
+
+                    </div>
+
+                </div>
+
+                <div class="separador"></div>
+
+                <div class="input-activo">
+
+
+                    <label for="peso">Peso</label>
+                    <input type="text" id="peso">
+
+
+                </div>
+
+                <div class="input-activo">
+
+
+                    <label for="alto">Alto</label>
+                    <input type="text" id="alto">
+
+
+                </div>
+
+
+                <div class="input-activo">
+
+
+                    <label for="ancho">Ancho</label>
+                    <input type="text" id="ancho">
+
+
+                </div>
+
+
+                <div class="input-activo">
+
+
+                    <label for="descripcion">Descripcion</label>
+                    <textarea name="descripcion" id="descripcion" class="text-area"></textarea>
+
+                </div>
+
+
+                <div class="input-activo">
+
+
+                    <label for="imagen">Imagen</label>
+                    <input type="file" id="imagen">
+
+
+                </div>
+
+
+                <button class="btn success full-width mt-2">Registrar </button>
+
+
+
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+    <!--SEGUNDO MODAL-->
+
+    <div class="modal" id="modal">
+        <div class="modal-content">
+
+            <div class="container-activo">
+                <div class="registro-header">
+                    <h2 class="text-center">Editar Proyecto</h2>
+                    <div class="modal-boton" id="modal-boton">
+
+                        <div class=" close-1"></div>
+                        <div class=" close-2"></div>
+
+
+                    </div>
+
+                </div>
+
+                <div class="separador"></div>
+
+                <div class="input-activo">
+
+
+                    <label for="peso-editar">Peso</label>
+                    <input type="text" id="peso-editar">
+
+
+                </div>
+
+                <div class="input-activo">
+
+
+                    <label for="alto-editar">Alto</label>
+                    <input type="text" id="alto-editar">
+
+
+                </div>
+
+
+                <div class="input-activo">
+
+
+                    <label for="ancho-editar">Ancho</label>
+                    <input type="text" id="ancho-editar">
+
+
+                </div>
+
+
+                <div class="input-activo">
+
+
+                    <label for="descripcion-editar">Descripcion</label>
+                    <textarea class="text-area" name="descripcion" id="descripcion"></textarea>
+
+
+                </div>
+
+
+                <div class="input-activo">
+
+
+                    <label for="imagen-editar">Imagen</label>
+                    <input type="file" id="editar">
+
+
+                </div>
+
+
+                <button class="btn success full-width mt-2">Guardar Cambios</button>
+
+
+
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+    <!--TERCER MODAL-->
+
+    <div class="modal" id="modal">
+        <div class="modal-content">
+
+            <div class="container-ficha">
+
+                <div>
+                    <div class="registro-header">
+                        <h2 class="text-center">Proyecto #01 <br>Valor $500</h2>
+                        <p class="text-center subtitulo-header">Instalacion+Transporte dentro del GAM incluidos</p>
+                        <div class="modal-boton" id="modal-boton">
+
+                            <div class=" close-1"></div>
+                            <div class=" close-2"></div>
+
+
+                        </div>
+
+                    </div>
+
+                    <div class="separador"></div>
+
+
+
+
+
+                    <ul class="lista-ficha">
+
+                        <li>Espacio requerido:8mtr x 7mtr</li>
+                        <li>Casita de 2mtr x 2mtr x 3.70mtr de altura</li>
+                        <li>Corredor de 2mtr x 1mtr</li>
+                        <li>Escalera Sólida con barandas</li>
+                        <li>Deck en la parte baja de la casita</li>
+                        <li>Extension para 3 columpios</li>
+                        <li>Techo en 2 caídas (zing teja)</li>
+                        <li>Puertas y ventanas frontales y verticales</li>
+                        <li>Tobogán recto ondulado grande de 3mtr de largo</li>
+                    </ul>
+                </div>
+
+                <div>
+
+                    <button class="btn danger full-width mt-2">PDF</button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+    <main>
+
+
+
+
+        <aside class="lateral-bar">
+
+            <div class="title-company ">
+
+                <h2>TicoPlayGround</h2>
+
+
+
+            </div>
+
+            <div class="title-panel">
+
+                <h2>Panel Administrativo</h2>
+
+
+            </div>
+
+
+            <h2 class="options">Opciones</h2>
+
+            <div class="module-container">
+
+                <div class="projects-module module">
+
+                    <i class="fas fa-project-diagram"></i>
+                    <a class="link-module">Home</a>
+
+
+                </div>
+
+                <div class="projects-module module">
+
+                    <i class="fas fa-project-diagram"></i>
+                    <a class="link-module">Proyectos</a>
+
+
+                </div>
+
+                <div class="clients-module module">
+
+                    <i class="fas fa-user-friends"></i>
+                    <a class="link-module">Clientes<a>
+
+
+                </div>
+
+
+
+                <div class="personal-module module">
+
+                    <i class="fas fa-users"></i>
+                    <a class="link-module">Personal<a>
+
+
+                </div>
+
+
+
+                <div class="inventory-module module">
+
+                    <i class="fas fa-boxes"></i>
+                <a class="link-module">Inventario</a>
+
+
+                </div>
+
+
+                <div class="market-rates-module module">
+
+                    <i class="fas fa-clipboard-list"></i>
+                    <a class="link-module">Cotizaciones</a>
+
+
+                </div>
+
+                <div class="expenses-module module">
+
+                    <i class="fas fa-receipt"></i>
+                    <a class="link-module">Gastos</a>
+
+
+                </div>
+
+                <div class="income-module module">
+
+                    <i class="fas fa-file-invoice-dollar"></i>
+                    <a class="link-module">Ingresos</a>
+
+
+                </div>
+
+
+                <div class="projects-module module">
+
+                    <i class="fas fa-users"></i>
+                    <a class="link-module">Usuarios</a>
+
+
+                </div>
+
+
+
+            </div>
+
+            <!--FIN DEL MODULE CONTAINER-->
+
+            <div class="help">
+
+                <h2 class="assistance">Asistencia</h2>
+
+                <div class="module">
+
+                    <i class="fas fa-cogs"></i>
+                    <a class="link-module">Ajustes</a>
+
+
+                </div>
+
+                <div class="module">
+
+                    <i class="far fa-question-circle"></i>
+                    <a class="link-module">Ayuda</a>
+
+
+                </div>
+
+                <div class="module">
+
+                    <i class="fas fa-headset"></i>
+                    <a class="link-module">Call Center</a>
+
+
+                </div>
+
+
+
+
+
+
+            </div>
+
+
+
+            <footer class="footer">
+
+                <p class="footer-text"></p>
+
+
+            </footer>
+
+
+
+
+        </aside>
+
+        <!--FIN BARRA LATERAL-->
+
+
+
+        <div class="info-container">
+
+            <header class="header">
+                <img src="img/User_Circle.png" alt="imagen-usuario">
+
+                <p class="name">Daniel Mora Cubero</p>
+
+
+
+
+            </header>
+
+            <h2 class="title-table text-center mt-2">Proyectos</h2>
+
+            <div class="table-container">
+
+
+                <table>
+
+
+
+
+                    <tr>
+
+                        <th>#</th>
+                        <th>Imagen</th>
+                        <th>Peso</th>
+                        <th>Alto</th>
+                        <th>Ancho</th>
+                        <th>Descripcion</th>
+                        <th>Acciones</th>
+
+                    </tr>
+
+
+                    <tr>
+
+                        <td>PL#1</td>
+                        <td><img class="imagen-proyecto" src="./img/WhatsApp Image 2020-09-19 at 10.52.02 AM.jpeg" alt="imagen-1"></td>
+                        <td>40kg</td>
+                        <td>1.20mts</td>
+                        <td>40cm</td>
+                        <td>Ideal para el patio de tu casa </td>
+                        <td>
+                            <div class="actions-container">
+
+                                <button class="edit"> <i class="fas fa-edit"></i>  </button>
+                                <button class="delete"><i class="far fa-trash-alt"></i></button>
+
+
+                            </div>
+                        </td>
+
+                    </tr>
+
+
+                    <tr>
+
+                        <td>PL#1</td>
+                        <td><img class="imagen-proyecto" src="./img/WhatsApp Image 2020-09-19 at 10.52.02 AM.jpeg" alt="imagen-1"></td>
+                        <td>40kg</td>
+                        <td>1.20mts</td>
+                        <td>40cm</td>
+                        <td>Ideal para el patio de tu casa </td>
+                        <td>
+                            <div class="actions-container">
+
+                                <button class="edit"> <i class="fas fa-edit"></i>  </button>
+                                <button class="delete"><i class="far fa-trash-alt"></i></button>
+
+
+                            </div>
+                        </td>
+
+                    </tr>
+
+
+
+
+                    <tr>
+
+                        <td>PL#1</td>
+                        <td><img class="imagen-proyecto" src="./img/WhatsApp Image 2020-09-19 at 10.52.02 AM.jpeg" alt="imagen-1"></td>
+                        <td>40kg</td>
+                        <td>1.20mts</td>
+                        <td>40cm</td>
+                        <td>Ideal para el patio de tu casa </td>
+
+                        <td>
+                            <div class="actions-container">
+
+                                <button class="edit"> <i class="fas fa-edit"></i>  </button>
+                                <button class="delete"><i class="far fa-trash-alt"></i></button>
+
+
+                            </div>
+                        </td>
+
+                    </tr>
+
+
+
+
+
+
+                    <tr>
+
+                        <td>PL#1</td>
+                        <td><img class="imagen-proyecto" src="./img/WhatsApp Image 2020-09-19 at 10.52.02 AM.jpeg" alt="imagen-1"></td>
+                        <td>40kg</td>
+                        <td>1.20mts</td>
+                        <td>40cm</td>
+                        <td>Ideal para el patio de tu casa </td>
+
+                        <td>
+                            <div class="actions-container">
+
+                                <button class="edit"> <i class="fas fa-edit"></i>  </button>
+                                <button class="delete"><i class="far fa-trash-alt"></i></button>
+
+
+                            </div>
+                        </td>
+
+                    </tr>
+
+
+                    <tr>
+                        <td>PL#1</td>
+                        <td><img class="imagen-proyecto" src="./img/WhatsApp Image 2020-09-19 at 10.52.02 AM.jpeg" alt="imagen-1"></td>
+                        <td>40kg</td>
+                        <td>1.20mts</td>
+                        <td>40cm</td>
+                        <td>Ideal para el patio de tu casa </td>
+
+                        <td>
+                            <div class="actions-container">
+
+                                <button class="edit"> <i class="fas fa-edit"></i>  </button>
+                                <button class="delete"><i class="far fa-trash-alt"></i></button>
+
+
+                            </div>
+                        </td>
+
+                    </tr>
+
+
+
+
+                </table>
+
+                <p class="nota mt-1">Nota: Al hacer click las imagenes muestran la ficha tecnica del proyecto</p>
+
+                <button id="agregar-activo" class="btn success mt-2">Agregar Proyecto</button>
+
+
+            </div>
+
+
+
+        </div>
+
+
+
+
+    </main>
+
+
+
+
+    <script src="https://kit.fontawesome.com/a81368914c.js"></script>
+    <script src="app/fichaTecnica.js" type="module"></script>
+</body>
+
+</html>
